@@ -4,7 +4,7 @@ require 'core/version'
 
 Gem::Specification.new do |spec|
   spec.name        = 'paypal-checkout-sdk'
-  spec.version     = "1.0.5"
+  spec.version     = "1.0.6"
   spec.summary     = "Deprecated."
   spec.description = "[Deprecated] This repository contains PayPal's Ruby SDK for Checkout REST API"
   spec.authors     = ["http://developer.paypal.com"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'paypalhttp', '~> 1.0.1'
+  spec.add_dependency 'paypalhttp', '~> 2.0.1'
 
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
